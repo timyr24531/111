@@ -1,0 +1,9 @@
+.scene-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    max-height: 550px;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}

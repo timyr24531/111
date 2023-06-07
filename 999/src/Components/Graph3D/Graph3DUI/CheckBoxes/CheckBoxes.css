@@ -1,0 +1,16 @@
+.check-group__result {
+    /* делаем жирный шрифт */
+    font-weight: bold;
+    /* немного отступаем сверху */
+    padding-top: 0.75rem;
+    /* рисуем тонкую линию над текстом */
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  /* обрабатываем результаты */
+  .check-group__result:after {
+    /* добавляем строку со значениями счётчиков */
+    content: counter(checked) " / " counter(total);
+    /* добавляем отступ слева */
+    padding-left: 1ch;
+  }

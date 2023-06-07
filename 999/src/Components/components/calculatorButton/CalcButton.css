@@ -1,0 +1,20 @@
+.calc-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    background-color: #c9bc71;
+    margin: 0 10px 10px;
+    user-select: none;
+    transition: 0.1s;
+}
+
+.calc-button:hover {
+    cursor: pointer;
+    background-color: #a0a078;
+}
+
+.calc-button:active {
+    transform: translateY(1px);
+}

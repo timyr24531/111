@@ -1,0 +1,57 @@
+.figure-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b11d1;
+    width: 300px;
+    border-radius: 15px;
+    margin-top:1px;
+}
+
+.figure-centre {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.input-color {
+    width: 40px;
+    height: 20px;
+    outline: none;
+    border: none;
+}
+
+.input-centre {
+    outline: none;
+    width: 50px;
+    text-align: center;
+}
+
+.figure-options{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.figure-options>input {
+    outline: none;
+    width: 50px;
+    text-align: center;
+    margin-left: 5px ;
+    margin-right: 5px ;
+}
+
+.delete-figure-button{
+    background-color: #706da0;
+    margin: 5px;
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.delete-figure-button:hover{
+    background-color: #520961;
+    cursor: pointer;
+}

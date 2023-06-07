@@ -1,0 +1,93 @@
+
+.r1{
+    width: 55px;
+    height: 40px;
+    border: 1px solid #707ebd;
+    background-color: #707ebd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1px 0 0 1px;
+    background-color: #28439b;
+
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.checkboxes{
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    background: aqua;
+}
+.checkboxes{
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 22px; 
+}
+
+  
+/* Checked */
+.checkboxes input[type=checkbox]:checked {
+    color:black;
+}
+  
+/* Focus */
+.checkboxes input[type=checkbox] {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+  
+/* Hover */
+.checkboxes input[type=checkbox]:hover {
+    filter: brightness(110%);
+}
+  
+/* Active */
+.checkboxes input[type=checkbox]:active {
+    filter: brightness(80%);
+}
+  
+/* Disabled */
+.checkboxes input[type=checkbox]:disabled {
+    color: #666;
+    cursor: default;
+}
+.checkboxes input[type=checkbox]:disabled {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.add-figure-button{
+    background-color: aquamarine;
+    width: 120px;
+    color:black
+}
+
+.delete-figure-button{
+    background-color: aquamarine;
+    width: 100px;
+    color:black
+}
+.figures-menu {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1px 0 0 1px;
+    background-color: #28439b;
+    margin-right: 600px;
+    width: 400px;
+    height: 550px;
+}
+

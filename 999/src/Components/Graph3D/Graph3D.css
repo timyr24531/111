@@ -1,0 +1,38 @@
+#canvas3D {
+    cursor: grab;
+    background-color: rgb(42, 42, 128);
+    border: 1px solid rgb(35, 129, 133);
+    position: absolute;
+    z-index: -1;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+#canvas3D:active {
+    cursor: grabbing;
+    
+}
+
+.Graph3D {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    position: relative;
+    display: flex;
+    width: 600px;
+}

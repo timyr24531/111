@@ -1,0 +1,26 @@
+.add-figure-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-figure-button {
+    background-color: #8a13da;
+    text-align: center;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: .1s;
+}
+
+.add-figure-button:hover {
+    cursor: pointer;
+    background-color: #09213d;
+}
+
+.add-figure-button:active {
+    transform: translateY(1px);
+    user-select: none;
+}
